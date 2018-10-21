@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,400i,700,700i|Source+Code+Pro|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Data Viz Lab</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <!-- Intro con titolo e immagine. Inserire immagine in /media/ con il nome cover.png
+    Al posto dei segna posto aggiungere il vostro nome e matricola negli <span> -->
+      <div class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text">
+              <h5 class="text-center">UNIMIB - 2017/2018</h5>
+              <h1 class="text-center">Campionato mondiale di calcio 2018</h1>
+              <h2 class="text-center">La Finale</h2>
+              <h4 class="text-center">Un progetto di: <br/>  
+                <span class="name">Beatrice Fumagalli - matricola 784549 - Data Science </span><br/> 
+                <span class="name">Pierluigi Tagliabue - matricola 835211 - Data Science</span> 
+              </h4>
+              </div>
+          </div>
+          </div>
+      </div>
+
+
+
+      <!-- Primo blocco di testo -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h5>Introduzione</h5>
+            <p>
+              <div style=’text-align:justify’>
+                  <font size="3">La <b> FIFA World Cup 2018</b> è stata la ventunesima edizione del campionato mondiale di calcio ed è stata la prima coppa del mondo che si è disputata nell’Europa orientale, infatti la fase finale si è svolta in Russia. La finale, svoltasi il 15 luglio nello Stadio <i>Lužniki</i> di Mosca, ha visto come protagoniste le nazionali di <b> Francia</b>  e <b> Croazia</b>  e la sfida si è conclusa con la vittoria della Francia per 4-2 che ha così conquistato la coppa del mondo per la seconda volta nella sua storia. L’obiettivo della nostra ricerca è quello di mettere in evidenza la relazione che intercorre tra la notorietà di un giocatore e l’effettiva bravura sul campo, sia durante la partita finale dei Mondiali, che durante l’intero anno calcistico. Ci siamo infatti chiesti se i giocatori più twittati attraverso il loro profilo ufficiale <i>Twitter</i> fossero anche i calciatori più forti nelle statistiche FIFA e nella pagella postpartita.</font>
+              </div>
+              </p>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Prima Visualizzazione -->
+      <div class="container viz">
+        <div class="row"><p style="text-align:center;"><iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiN2I2Y2Q0OTYtMmZiNy00ZjA0LWIzNTktYzIyYzUxMWI5OTU2IiwidCI6IjMyYjI3ZjU0LTA5ZmItNDhhZi05YzE3LTBmOThhNWQ1OThiZiIsImMiOjh9" frameborder="0" allowFullScreen="true"></p></iframe>
+          <!-- Incollare qui l'embed della visualizzazione o inserire l'immagine tramite <img src="media/nomefile.jpg">
+          Largezza consigliata per le immagini o per gli embed 1140px per 700px-->
+        </div>
+      </div>
+
+      
+
+      <!-- Seconda Visualizzazione -->
+      <div class="container viz">
+          <div class="row"><p style="text-align:center;"><iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZTdlMTUxYWItZTE0NC00OGEzLTlmMzktZTEyMmMyZmI5ZjgwIiwidCI6IjMyYjI3ZjU0LTA5ZmItNDhhZi05YzE3LTBmOThhNWQ1OThiZiIsImMiOjh9" frameborder="0" allowFullScreen="true"></p></iframe>
+            <!-- Incollare qui l'embed della visualizzazione o inserire l'immagine tramite <img src="media/nomefile.jpg">
+            Largezza consigliata per le immagini o per gli embed 1140px per 700px-->
+          </div>
+        </div>
+
+<!-- Secondo blocco di testo -->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h5>Considerazioni</h5>
+              <p>
+                <div style=’text-align:justify’>
+                    <font size="3">Sia per quanto riguarda la Croazia che la Francia, si può notare dalla <i> Word Cloud</i>  come i giocatori più twittati siano giocatori ritenuti anche estremamente forti, con un punteggio FIFA molto alto. Infatti, il centrocampista <b>Luka Modrić</b> è sia il giocatore croato più twittato, con 198 tweets complessivi, sia il giocatore più forte (punteggio FIFA: 89). Mano a mano che i tweets decrescono e dunque le parole si fanno più piccole nella <i>Word Cloud</i>, anche il punteggio FIFA circa le abilità del giocatore sul campo cala. La variazione del numero dei <i>tweets</i> nelle tre fasi della finale prepartita, partita e postpartita, selezionabili dal filtro, è inoltre legato alla prestazione del giocatore durante il <i>match</i>. Infatti, nonostante Modrić sia stato eletto miglior giocatore della competizione (vincitore del Pallone d'oro dei Mondiali), la pagella postpartita evidenzia come non sia riuscito a brillare abbastanza in finale, con un voto pari a 5.0. La correlazione tra i due fattori, numero di <i>tweets</i> e bravura sul campo, si evince dalla distribuzione dei suoi <i>tweets</i> che si concentrano nel postpartita (139 su 198). Ciò indica che sul campo non ha compiuto imprese degne di nota, rimanendo però un giocatore amato dal pubblico. Come ci si aspettava, tra i giocatori della Francia i più twittati risultano essere <b>Pogba</b> e <b>Griezmann</b>, con rispettivamente 1749 e 1440 tweets. Si tratta infatti di giocatori molto forti, con un punteggio FIFA pari a 87 e 88, che hanno giocato molto bene in partita segnando un <i>goal</i> ciascuno aggiudicandosi entrambi uno <i>score</i> di 7.5 . Una cosa certa è che i giocatori più twittati di ciascuna delle due squadre Francia e Croazia sono rispettivamente Paul Pogba e Luka Modrić, come si evince dal <i>Bar Chart</i> relativo al punteggio FIFA previa selezione del <i>‘Select All’</i> nel filtro ‘Nazionalità’, due calciatori ben noti tra tutti i tifosi italiani. Nonostante Modrić sembri essere poco più forte tra i due, come si può notare nel <i>Radar chart</i> della seconda <i>dashboard</i>, comprendente le specifiche di ciascun calciatore di entrambe le squadre, Pogba risulta essere in assoluto il giocatore più twittato della finale dei Mondiali 2018.</font>
+                </div>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      <!-- Terzo blocco di testo -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h5>Conclusioni</h5>
+        <p>
+          <div style=’text-align:justify’>
+              <font size="3">Come già evidenziato, da questa analisi emerge che i giocatori che godono di una maggiore notorietà e dunque i più twittati, sono i giocatori con un punteggio FIFA elevato. Inoltre la distribuzione dei <i> tweets</i> è fortemente legata alla bravura/non bravura del calciatore durante la partita. Sono presenti delle anomalie, giustificate da eventi esterni al campionato e ad azioni svoltesi durante la partita. Ad esempio si può notare come il giocatore croato <b>Pjaca</b>, pur non avendo ricevuto un punteggio postpartita in quanto entrato in campo solamente nei minuti finali, compare nella <i>Word Cloud</i> poiché ugualmente twittato, grazie alla notorietà acquisita giocando nella <i>Juventus</i>.</font>
+          </div>
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+      <!-- Quarto blocco di testo -->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h5>Note metodologiche</h5>
+              <p>
+                <div style=’text-align:justify’>
+                    <font size="3">La prima <i>dashboard</i> comprende:<br/><br/> 
+                      <ul>
+                        <li> <b><i>Word Cloud</i></b> comprendente le parole più frequenti nei <i>tweets</i> aventi come <i>keywords</i> i profili ufficiali dei giocatori delle squadre finaliste, scaricati in <i>Live Streaming</i> utilizzando la piattaforma <i>Apache Kafka</i>, memorizzati nel <i>database MongoDB</i> e successivamente manipolati in <i>Python</i>, al fine di permettere la creazione delle tabelle utili per le visualizzazioni. I profili ufficiali sono stati messi in risalto grazie all’utilizzo di due colori diversi, <font color="red">rosso</font> per la Croazia e <font color="blue">blu</font> per la Francia, poi mantenuti nei successivi grafici. È possibile filtrare i dati sia per squadra, che per fase della finale: prepartita, partita e postpartita.<br/><br/>  
+                        <li> <b><i>Bar chart:</i></b> mostra la pagella postpartita assegnata da <i>Sport Mediaset</i> a ciascun giocatore delle due squadre dopo aver disputato la finale del Mondiale. Sull’asse delle X sono presenti i nomi estesi di tutti i giocatori e l’asse Y è stata settata da 0 a 10, punteggio massimo assegnabile ad un giocatore.<br/><br/>   
+                        <li> <b><i>Bar chart:</i></b> mostra il punteggio FIFA, un punteggio assegnato a ciascun giocatore in base alle caratteristiche specifiche di quest'ultimo. Sull’asse X sono riportati i nomi dei calciatori e l’asse Y varia da 0 a 100, il massimo punteggio FIFA.<br/><br/>  
+                      </ul>   
+                      Tutti e tre i grafici sono tra loro interattivi, grazie al <i>nickname</i> del giocatore impostato come <i>Primary Key</i>, a cui è collegato il nome esteso del medesimo, riportato sull’asse delle X dei <i>Bar charts</i>. Il filtro della nazionalità è valido anche sui <i>Bar charts</i>.<br/><br/>                       
+                        
+                      La seconda <i>dashboard</i> comprende:<br/><br/>  
+                      <ul>  
+                        <li> Due colonne laterali comprendenti tutte le informazioni dei giocatori di entrambe le squadre: squadra nazionale di appartenenza, nome, cognome, ruolo di gioco, età, squadra di provenienza, <i>nickname</i> del profilo ufficiale <i>Twitter</i> e numero di <i>followers</i>. Il nome del calciatore è stato impostato a <i>Primary Key</i> per permettere l’interazione con il <i>Radar Chart</i>.<br/><br/> 
+                        
+                        <li> <b><i>Radar Chart:</i></b> mostra le specifiche di ciascun giocatore. È stato realizzato per permettere il confronto fra due giocatori appartenenti alle due squadre avversarie. Il giocatore a seconda dei punti di forza avrà così un’area maggiore/minore rispetto all’altro. L’interattività è stata realizzata creando un’apposita tabella contenente solamente una colonna con le sei categorie ed impostata a <i>Primary Key</i>. Ciascuna delle due tabelle di Francia e Croazia contiene una colonna con le categorie ripetute per ciascun giocatore ed impostata come <i>Foreign Key</i>, collegata poi alla <i>Primary Key</i>. Infine quest’ultime sono state collegate alle colonne laterali utilizzando come <i>Primary Key</i> il nome del giocatore. Per ciascun giocatore è possibile analizzarne le abilità, ossia la velocità, la capacità in fase offensiva, la capacità in fase difensiva, la precisione e tempestività nei passaggi, l’agilità nei movimenti e la prestanza fisica. La scala è compresa tra 0 e 100 per ogni singola categoria.</font>
+                </div>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      <!-- Quinto blocco di testo -->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h5>Euristiche considerate</h5>
+              <p>
+                <div style=’text-align:justify’>
+                    <font size="3">
+                        Da <i>Visual Information-Seeking Mantra, Shneiderman</i>, 1996 <br/><br/>
+                      <ul>
+                        <li>	<i><b>Overview:</i></b> visualizzazione generale del <i>dataset</i><br/>
+                        <li>	<i><b>Zoom:</i></b> identificazione di contenuti specifici.<br/>
+                        <li>	<i><b>Filter:</i></b> possibilità di filtrare i contenuti in base a nazionalità e fase della finale per la prima <i>dashboard</i> e in base al nome del giocatore per la seconda <i>dashboard</i>.<br/>
+                        <li>	<i><b>Detail-on-demand:</i></b> possibilità di evidenziare le variabili ed ottenere informazioni dettagliate a riguardo.
+                      </ul>
+                    </font>   
+                </div>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Sesto blocco di testo -->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h5>Test utente</h5>
+              <p>
+                <div style=’text-align:justify’>
+                    <font size="3">L’obiettivo è utilizzare i filtri presenti nella prima <i>dashboard</i> per selezionare le diverse fasi della finale e le diverse nazionalità al fine di ottenere una panoramica capace di mettere in relazione i diversi <i>tweets</i> legati ai profili ufficiali dei giocatori, con il loro rispettivo conteggio, le pagelle dei calciatori e le loro statistiche. Tramite la seconda <i>dashboard</i> è inoltre possibile approfondire le statistiche di ogni singolo giocatore, ottenere informazioni più dettagliate e confrontarle fra loro.<br/><br/>
+                      Lo scenario ottimale per ciascuna delle quattro domande sottoposte era il seguente:<br/><br/>
+                      <b>1)</b> Qual è il giocatore croato più forte secondo le statistiche FIFA ?
+                          <ul>
+                              <li>L'utente seleziona “Croazia” nel filtro “Nazionalità”
+                              <li>L’utente identifica la risposta osservando il <i>Bar Chart</i> delle statistiche FIFA <br/><br/>
+                          </ul>
+                          <b>2)</b> Quante volte è stato twittato nel prepartita ?
+                          <ul>
+                              <li> L’utente mantenendo attivo il filtro sulla nazionalità precedentemente impostato, seleziona “Prepartita” nel filtro “Fase della finale”<br/>
+                              <li> L’utente identifica la risposta posizionando direttamente il cursore sulla parola riferita al profilo ufficiale del calciatore all’interno della <i>Word Cloud</i> <br/><br/>
+                          </ul>
+                          <b>3)</b> Qual è il giocatore più veloce tra <b>Ante Rebić</b> e <b>Antoine Griezmann</b>?
+                          <ul>
+                              <li> L’utente seleziona la seconda <i>dashboard</i>
+                              <li> L’utente seleziona Ante Rebić e Antoine Griezmann utilizzando il filtro “Seleziona un giocatore” rispettivamente in Croazia e Francia
+                              <li> L’utente identifica la risposta utilizzando il <i>Radar Chart</i> <br/><br/>
+                          </ul>
+                          <b>4)</b> In quale squadra gioca il francese <b>Ousmane Dembélé</b>?
+                          <ul>
+                              <li> L’utente seleziona Ousmane Dembélé dal filtro “Seleziona un giocatore” posizionato sotto la bandiera francese
+                              <li> L’utente identifica la risposta guardando l’apposito riquadro sottostante la foto del giocatore.
+                          </ul>
+                          </font><br/><br/>
+                          <p style="text-align:center;"><img src="media/BoxPlot.png"> 
+                            ></p>
+                          <div style=’text-align:justify’>
+                            <font size="3">
+                                Dal seguente <i>Box Plot</i> è possibile notare che su un campione di 12 utenti di cui 5 inesperti e 7 esperti, pur non commettendo entrambi errore nella risposta alla domanda relativa all’infografica, l’utente medio esperto ha un tempo di risposta inferiore rispetto all’inesperto.
+                            </font><br/><br/>
+                          </div>
+                          <p style="text-align:center;"><img src="media/Conoscenza_calcistatica_risposte.png"></p>
+                          <div style=’text-align:justify’>
+                              <font size="3">
+                                Dai risultati emerge che gli utenti con un livello scarso di conoscenza in materia calcistica hanno il numero più elevato di risposte sbagliate relative alle domande sulle infografiche, invece coloro che hanno un livello esperto hanno anche il maggior numero di risposte giuste.
+                              </font><br/>
+                          </font><br/><br/>
+                            <p style="text-align:center;"><img src="media/Errore_inbase_esperienze_infografiche.png"></p>
+                          <div style=’text-align:justify’>
+                            <font size="3">
+                              Dai risultati emerge che gli utenti inesperti nell’utilizzo delle infografiche hanno il numero più elevato di risposte sbagliate relative a tutte e quattro le domande sulle medesime, invece gli esperti hanno il maggior numero di risposte giuste. Complessivamente sia gli esperti che gli inesperti hanno risposto prevalentemente in maniera corretta ai quesiti.
+                            </font><br/>
+                        </font>
+                </div>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Settimo blocco di testo -->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h5>Questionari psicometrici</h5>
+              <p>
+                <div style=’text-align:justify’>
+                    <font size="3">
+                        L’obiettivo è di valutare la qualità delle infografiche elaborate. Il questionario è composto da quattro sezioni: dati anagrafici e livello di preparazione in campo calcistico, esperienza con le infografiche, <i>task</i> valutazione e valutazione infografica. Il questionario è stato somministrato a 50 soggetti (33 uomini e 17 donne). Attraverso i dati racconti nella prima sezione è stato possibile mettere in relazione il sesso dell’utente con il relativo livello di conoscenza calcistica. Dal <i>Bar Chart</i> sottostante è possibile suddividere gli utenti in tre macrocategorie: quelli con un <b>livello Scarso</b> in materia calcistica corrispondenti al <i>range</i> di risposta 1-2 e comprendono 11 donne e 5 uomini, <b>livello Medio</b> con <i>range</i> di risposta 4-5 e aventi 5 donne e 8 uomini, infine <b>livello Esperto</b> con <i>range</i> 5-6 e comprendono, come ci si aspettava, 15 uomini e solamente 1 donna.</font><br/><br/>
+                      <p style="text-align:center;"><img src="media/AnalisiTest_1.png"></p>
+                      <font size="3">
+                          Attraverso i dati raccolti è stato inoltre possibile stabilire la frequenza con cui gli intervistati hanno a che fare con le infografiche, permettendoci di distinguere due macrocategorie di soggetti: gli <b>inesperti</b>, che costituiscono la maggioranza dei nostri utenti e dichiarano di non aver mai avuto esperienze con le infografiche (24/50) o solamente qualche volta (15/50) e gli <b>esperti</b> che interagiscono spesso (8/50) o sempre (3/50) con le infografiche.
+                      </font>
+                      <p style="text-align:center;"><img src="media/Esperienza_con_le_infografiche.png"></p>
+                      <p style="text-align:center;"><img src="media/valutazione_complessiva_esperienza_infografiche.png"></p>
+                    </div>
+                  <div style=’text-align:justify’>
+                    <font size="3">
+                        Complessivamente il giudizio finale sulla qualità delle visualizzazioni risulta essere positivo sia da parte degli esperti con le infografiche, sia da parte degli inesperti.
+                      </font><br/><br/>
+                      <p style="text-align:center;"><img src="media/Valutazione-complessiva_infografica_utenti_calcio.png"></p>
+                      <font size="3">
+                          Anche suddividendo gli utenti in base alla conoscenza calcistica, la valutazione complessiva dell’infografica rimane positiva.
+                        </font><br/><br/>
+                    </div>
+                </div>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+            <!-- Inserire i link agli strumenti utilizzati per la gestione dei dati e per la visualizzazione-->
+        <body bgcolor="#000000">
+            <h5 id="tools">Strumenti utilizzati</h5>
+            <p><a href="https://www.python.org/">Python</a></p>
+            <p><a href="https://powerbi.microsoft.com/it-it/">Power BI (Microsoft)</a></p>
+          </body>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
